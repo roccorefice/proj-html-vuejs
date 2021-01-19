@@ -1,0 +1,35 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utility classes */
+.d_flex{
+    display: flex;
+}
+.container{
+    width: 969px;
+}
+/* //utility classes */
+
+/* HEADER */
+/* call us */
+.bg_green{
+    background-color: #69bf14;
+
+}
+.call_us{
+    color: white;
+    height: 35px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.call_us i{
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+/* //HEADER */
