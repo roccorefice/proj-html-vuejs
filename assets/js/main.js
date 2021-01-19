@@ -10,5 +10,9 @@ let app = new Vue({
             "FAQ",
             "Contact"
         ],
+        getNow: "GET A FREE QUOTE ONLINE NOW!",
+        descriptionOne:"moving without the hassle",
+        descriptionTwo:"professional service with quality and customer atisfaction",
+        slogan:"we make it simple"
     }
 });

@@ -41,31 +41,42 @@
             </div>
             <!-- //call us -->
             
-            <!-- navbar -->
-            <div class="bg_white">
-                <div class="navbar container d_flex">
-                    <div class="logo">
-                        <a href="">
-                            <img :src="logoNavbar" alt="">
-                        </a>
-                    </div>
-                    <div class="menu d_flex">
-                        <ul class="d_flex" v-for="item in menuNavbar">
-                            <li>{{item}}</li>
-                        </ul>
-                        <button class="btn">FREE QUOTE</button>
-
+            <!-- banner -->
+            <div class="banner">
+                <!-- navbar -->
+                <div class="padding_xy_15">
+                    <div class="navbar container d_flex">
+                        <div class="logo">
+                            <a href="">
+                                <img :src="logoNavbar" alt="">
+                            </a>
+                        </div>
+                        <div class="menu d_flex">
+                            <ul class="d_flex" v-for="item in menuNavbar">
+                                <li>{{item}}</li>
+                            </ul>
+                            <button class="btn">FREE QUOTE</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- //navbar -->
+                <!-- //navbar -->
 
-            <div class="banner">
+                <!-- slogan Title -->
+                <div class="slogan">
+                    <p>{{descriptionOne}}</p>
+                    <h1>{{slogan}}</h1>
+                    <p>{{descriptionTwo}}</p>
+                </div>
+                <!-- //slogan Title -->
 
+                <!-- get now -->
+                <div class="get_now bg_blu">
+                    <p>{{getNow}}</p>
+                </div>
+                <!-- get now -->
             </div>
-            <div class="get_now">
-
-            </div>
+            <!-- //banner -->
+            
         </header>
         <!-- //HEADER -->
 

@@ -17,13 +17,30 @@
 .container{
     width: 969px;
 }
-/* //utility classes */
-
-/* HEADER */
-/* call us */
+.btn{
+    background-color: #1975c0;
+    padding: 10px 20px;
+    border-radius: 100px;
+    color: white;
+    border-style: none;
+    font-size: 14px;
+    font-weight: 600;
+}
 .bg_green{
     background-color: #69bf14;
 }
+.bg_blu{
+    background-color: #1975c0;
+}
+.padding_xy_15{
+    padding: 15px 0;
+}
+/* //utility classes */
+
+
+
+/* HEADER */
+/* call us */
 .call_us{
     color: white;
     height: 35px;
@@ -36,12 +53,17 @@
     cursor: pointer;
 }
 
-/* navbar */
-.bg_white{
-    background-color: white;
-    padding: 15px;
-
+/* banner */
+.banner{
+    background-image: url("../img/avada-movers-homeherobackground-final.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    position: relative;
 }
+
+/* navbar */
 .navbar{
     height: 75px;
     margin: auto;
@@ -53,21 +75,41 @@
     padding: 0px 15px;
     font-size: 14px;
     font-weight: 600;
-    
+    cursor: pointer;
 }
 .navbar .menu{
     justify-content: space-between;
     align-items: center;
 }
-.btn{
-    background-color: #1975c0;
-    padding: 10px 20px;
-    border-radius: 100px;
-    color: white;
-    border-style: none;
+
+/* slogan */
+.slogan{
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+    padding-top: 150px;
+}
+.slogan p{
+    color: #6b6b6b;
     font-size: 14px;
     font-weight: 600;
 }
+.slogan h1{
+    color: black;
+    font-size: 54px;
+    font-weight: 800;
+}
 
+/* get now */
+.get_now{
+    height: 120px;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    line-height: 120px;
+    position: absolute;
+    bottom: 0;
+}
 
 /* //HEADER */
