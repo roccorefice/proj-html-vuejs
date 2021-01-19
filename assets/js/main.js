@@ -12,7 +12,7 @@ let app = new Vue({
         ],
         getNow: "GET A FREE QUOTE ONLINE NOW!",
         descriptionOne:"moving without the hassle",
-        descriptionTwo:"professional service with quality and customer atisfaction",
+        descriptionTwo:"professional service with quality and customer satisfaction",
         slogan:"we make it simple"
     }
 });

@@ -113,3 +113,34 @@
 }
 
 /* //HEADER */
+
+
+
+/* MAIN */
+
+/* award */
+.award{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-color:#F8F9FD;
+    padding: 100px;
+    line-height: 30px;
+}
+.award > p{
+    color: #93989b;
+    font-size: 14px;
+    font-weight: 600;
+}
+.award h2{
+    color: #69bf14;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 50px;
+}
+.award > p:nth-child(3){
+    font-size: 14px;
+    font-weight: 400;
+    padding: 20px 0;
+
+}
