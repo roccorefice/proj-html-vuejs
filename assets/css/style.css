@@ -1,318 +1,381 @@
 /* RESET */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 /* utility classes */
-.d_flex{
-    display: flex;
+.d_flex {
+  display: flex;
 }
-.d_flex_col{
-    display: flex;
-    flex-direction: row;
+.d_flex_col {
+  display: flex;
+  flex-direction: row;
 }
-.container{
-    width: 1200px;
+.container {
+  width: 1200px;
 }
-.btn{
-    background-color: #1975c0;
-    padding: 10px 20px;
-    border-radius: 100px;
-    color: white;
-    border-style: none;
-    font-size: 14px;
-    font-weight: 600;
+.btn {
+  background-color: #1975c0;
+  padding: 10px 20px;
+  border-radius: 100px;
+  color: white;
+  border-style: none;
+  font-size: 14px;
+  font-weight: 600;
 }
-.bg_green{
-    background-color: #69bf14;
+.bg_green {
+  background-color: #69bf14;
 }
-.bg_blu{
-    background-color: #1975c0;
+.bg_blu {
+  background-color: #1975c0;
 }
-.padding_xy_15{
-    padding: 15px 0;
+.padding_xy_15 {
+  padding: 15px 0;
 }
 /* //utility classes */
 
-
-
 /* HEADER */
 /* call us */
-.call_us{
-    color: white;
-    height: 35px;
-    margin: auto;
-    justify-content: space-between;
-    align-items: center;
+.call_us {
+  color: white;
+  height: 35px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
 }
-.call_us i{
-    padding-right: 10px;
-    cursor: pointer;
+.call_us i {
+  padding-right: 10px;
+  cursor: pointer;
 }
 
 /* banner */
-.banner{
-    background-image: url("../img/avada-movers-homeherobackground-final.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 700px;
-    width: 100%;
-    position: relative;
+.banner {
+  background-image: url("../img/avada-movers-homeherobackground-final.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+  position: relative;
 }
 
 /* navbar */
-.navbar{
-    height: 75px;
-    margin: auto;
-    justify-content: space-between;
-    align-items: center;
+.navbar {
+  height: 75px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
 }
-.navbar li{
-    list-style: none;
-    padding: 0px 15px;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
+.navbar li {
+  list-style: none;
+  padding: 0px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
 }
-.navbar .menu{
-    justify-content: space-between;
-    align-items: center;
+.navbar .menu {
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* slogan */
-.slogan{
-    text-align: center;
-    line-height: 50px;
-    text-transform: uppercase;
-    padding-top: 150px;
+.slogan {
+  text-align: center;
+  line-height: 50px;
+  text-transform: uppercase;
+  padding-top: 150px;
 }
-.slogan p{
-    color: #6b6b6b;
-    font-size: 14px;
-    font-weight: 600;
+.slogan p {
+  color: #6b6b6b;
+  font-size: 14px;
+  font-weight: 600;
 }
-.slogan h1{
-    color: black;
-    font-size: 54px;
-    font-weight: 800;
+.slogan h1 {
+  color: black;
+  font-size: 54px;
+  font-weight: 800;
 }
 
 /* get now */
-.get_now{
-    height: 120px;
-    width: 100%;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    line-height: 120px;
-    position: absolute;
-    bottom: 0;
-    cursor: pointer;
+.get_now {
+  height: 120px;
+  width: 100%;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  line-height: 120px;
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
 }
 
 /* //HEADER */
 
-
-
 /* MAIN */
 
 /* award */
-.award{
-    height: 500px;
-    width: 100%;
-    text-align: center;
-    background-color:#F8F9FD;
-    padding: 100px;
-    line-height: 30px;
+.award {
+  height: 500px;
+  width: 100%;
+  text-align: center;
+  background-color: #f8f9fd;
+  padding: 100px;
+  line-height: 30px;
 }
-.award > p{
-    color: #93989b;
-    font-size: 14px;
-    font-weight: 600;
+.award > p {
+  color: #93989b;
+  font-size: 14px;
+  font-weight: 600;
 }
-.award h2{
-    color: #69bf14;
-    font-size: 40px;
-    font-weight: 800;
-    line-height: 50px;
+.award h2 {
+  color: #69bf14;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 50px;
 }
-.award > p:nth-child(3){
-    font-size: 14px;
-    font-weight: 400;
-    padding: 20px 0;
+.award > p:nth-child(3) {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 20px 0;
 }
-
 
 /* services */
-.services{
-    padding: 100px;
-    text-align: center;
+.services {
+  padding: 100px;
+  text-align: center;
 }
-.services > p{
-    color: #93989b;
-    font-size: 14px;
-    font-weight: 600;
-    padding-bottom: 10px;
+.services > p {
+  color: #93989b;
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 10px;
 }
-.services h2{
-    color: #69bf14;
-    font-size: 40px;
-    font-weight: 800;
-    padding-bottom: 20px;
+.services h2 {
+  color: #69bf14;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 20px;
 }
-.services .card img{
-    height: 170px;
+.services .card img {
+  height: 170px;
 }
-.services .box_cards{
-    justify-content: center;
+.services .box_cards {
+  justify-content: center;
 }
-.services .card{
-    width: 300px;
-    background-color: #F8F9FD;
-    text-align: center;
-    margin: 20px;
-    padding: 15px;
+.services .card {
+  width: 300px;
+  background-color: #f8f9fd;
+  text-align: center;
+  margin: 20px;
+  padding: 15px;
 }
-.services .card_description{
-    background-color: white;
-    padding: 10px;
-    margin-top: 10px;
+.services .card_description {
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
 }
-.services .card_description h3{
-    color: #1975c0;
-    padding: 20px;
+.services .card_description h3 {
+  color: #1975c0;
+  padding: 20px;
 }
-.services .card_description p{
-    line-height: 26px;
-    font-size: 14px;
-    padding-bottom: 20px;
+.services .card_description p {
+  line-height: 26px;
+  font-size: 14px;
+  padding-bottom: 20px;
 }
-.services .card_description button{
-    margin-bottom: 20px;
+.services .card_description button {
+  margin-bottom: 20px;
 }
-
 
 /* call to action */
-.call_to_action{
-    background-image: url("../img/avada-movers-movewithease-background-new.jpg");
-    background-size: 100%;
-    height: 700px;
-    width: 100%;
+.call_to_action {
+  background-image: url("../img/avada-movers-movewithease-background-new.jpg");
+  background-size: 100%;
+  height: 700px;
+  width: 100%;
 }
-.call_to_action > .container{
-    position: relative;
-    margin: auto;
+.call_to_action > .container {
+  position: relative;
+  margin: auto;
 }
-.call_to_action .green_card{
-    width: 550px;
-    background-color:  #6ABF17 ;
-    border: 10px solid #5aa511;
-    padding: 50px;
-    text-align: center;
-    position: absolute;
-    right: 0;
-    transform: translateY(40%);
+.call_to_action .green_card {
+  width: 550px;
+  background-color: #6abf17;
+  border: 10px solid #5aa511;
+  padding: 50px;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  transform: translateY(40%);
 }
-.green_card h4{
-    color: white;
-    font-size: 14px;
-    font-weight: 600;
-    padding-bottom: 10px;
+.green_card h4 {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 10px;
 }
-.call_to_action h3{
-    color: white;
-    font-size: 40px;
-    font-weight: 800;
-    padding-bottom: 20px;
+.call_to_action h3 {
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 20px;
 }
-.call_to_action hr{
-    width: 300px;
-    position: relative;
-    left: 14%;
+.call_to_action hr {
+  width: 300px;
+  position: relative;
+  left: 14%;
 }
-.green_card p{
-    color: white;
-    font-size: 14px;
-    line-height: 26px;
-    padding: 20px;
+.green_card p {
+  color: white;
+  font-size: 14px;
+  line-height: 26px;
+  padding: 20px;
 }
-
 
 /* testimonials */
-.testimonials{
-    background-image: url("../img/avada-movers-testimonial-background.jpg");
-    background-size: 100%;
-    height: 700px;
-    width: 100%;
-    text-align: center;
-    padding: 100px;
+.testimonials {
+  background-image: url("../img/avada-movers-testimonial-background.jpg");
+  background-size: 100%;
+  height: 700px;
+  width: 100%;
+  text-align: center;
+  padding: 100px;
 }
-.testimonials h4{
-    color: #93989b;
-    font-size: 14px;
-    font-weight: 600;
-    padding-bottom: 10px;
+.testimonials h4 {
+  color: #93989b;
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 10px;
 }
-.testimonials h3{
-    color: #69bf14;
-    font-size: 40px;
-    font-weight: 800;
-    padding-bottom: 40px;
+.testimonials h3 {
+  color: #69bf14;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 40px;
 }
-.testimonials > .container{
-    margin: auto;
+.testimonials > .container {
+  margin: auto;
 }
-.card_testimonial{
-    width: 30%;
-    height: auto;
-    margin: auto;
-    text-align: center;
+.card_testimonial {
+  width: 30%;
+  height: auto;
+  margin: auto;
+  text-align: center;
 }
-.card_testimonial p{
-    font-style: italic;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 25px;
+.card_testimonial p {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
 }
-.card_testimonial img{
-    border-radius: 100%;
-    height: 120px;
+.card_testimonial img {
+  border-radius: 100%;
+  height: 120px;
 }
-.card_testimonial h5{
-    color: #1975c0;
-    font-size: 18px;
-    font-weight: 800;
-    padding: 15px;
+.card_testimonial h5 {
+  color: #1975c0;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 15px;
 }
-.testimonials button{
-    margin-top: 70px;
+.testimonials button {
+  margin-top: 70px;
 }
-
 
 /* request */
-.request{
-    background-image: url("../img/avada-movers-request-quote-background.jpg");
-    background-size: 100%;
-    height: 400px;
-    width: 100%;
-    text-align: center;
-    padding: 100px;
+.request {
+  background-image: url("../img/avada-movers-request-quote-background.jpg");
+  background-size: 100%;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  padding: 100px;
 }
-.request h3{
-    color: #69bf14;
-    font-size: 40px;
-    font-weight: 800;
-    padding-bottom: 30px;
+.request h3 {
+  color: #69bf14;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 30px;
 }
-.request p{
-    font-size: 14px;
-    font-weight: 400;
-    width: 50%;
-    margin: auto;
-    line-height: 30px;
-    padding-bottom: 30px;
+.request p {
+  font-size: 14px;
+  font-weight: 400;
+  width: 50%;
+  margin: auto;
+  line-height: 30px;
+  padding-bottom: 30px;
+}
+/* //MAIN */
+
+/* FOOTER */
+.green_line {
+  background-color: #69bf14;
+  height: 15px;
+  width: 100%;
 }
 
+/* footer top */
+.footer_top {
+  background-color: white;
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  padding: 50px;
+}
+.footer_top > .container {
+  margin: auto;
+}
+.about {
+  width: 34%;
+  padding: 30px;
+}
+.about p {
+  line-height: 40px;
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+.avada_movers {
+  width: 33%;
+  padding: 30px;
+}
+.recent_posts {
+  width: 33%;
+  padding: 30px;
+}
+.footer_top li {
+  list-style: none;
+  line-height: 40px;
+}
+.footer_top a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+.footer_top i {
+  font-size: 10px;
+}
+.footer_top h3 {
+  padding-bottom: 20px;
+}
+
+/* footer bottom */
+.footer_bottom {
+  height: 100px;
+  width: 100%;
+  padding: 25px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+.footer_bottom span i {
+  font-size: 18px;
+  padding: 10px;
+}
+.footer_bottom a {
+  text-decoration: none;
+  color: white;
+}
+
+/* //FOOTER */

@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movers</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300&display=swap"
+      rel="stylesheet"
+    />
 
-
-    
     <!-- fontawesome -->
     <link
       rel="stylesheet"
@@ -17,199 +18,274 @@
     />
     <!-- style.css -->
     <link rel="stylesheet" href="./assets/css/style.css" />
-</head>
-<body>
+  </head>
+  <body>
     <!-- istanza vue -->
     <div id="app">
-
-        <!-- HEADER -->
-        <header id="header">
-            <!-- call us -->
-            <div class="bg_green">
-                <div class="call_us container d_flex">
-                    <div class="phone">
-                        <i class="fas fa-phone"></i>
-                        <span>Call us for Free Quote 1.800.555.6789</span>
-                    </div>
-                    <div class="social">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-youtube"></i>
-                    </div>
-                </div>
+      <!-- HEADER -->
+      <header id="header">
+        <!-- call us -->
+        <div class="bg_green">
+          <div class="call_us container d_flex">
+            <div class="phone">
+              <i class="fas fa-phone"></i>
+              <span>Call us for Free Quote 1.800.555.6789</span>
             </div>
-            <!-- //call us -->
-            
-            <!-- banner -->
-            <div class="banner">
-                <!-- navbar -->
-                <div class="padding_xy_15">
-                    <div class="navbar container d_flex">
-                        <div class="logo">
-                            <a href="">
-                                <img :src="logoNavbar" alt="">
-                            </a>
-                        </div>
-                        <div class="menu d_flex">
-                            <ul class="d_flex" v-for="item in menuNavbar">
-                                <li>{{item}}</li>
-                            </ul>
-                            <button class="btn">FREE QUOTE</button>
-                        </div>
-                    </div>
-                </div>
-                <!-- //navbar -->
-
-                <!-- slogan Title -->
-                <div class="slogan">
-                    <p>{{descriptionOne}}</p>
-                    <h1>{{slogan}}</h1>
-                    <p>{{descriptionTwo}}</p>
-                </div>
-                <!-- //slogan Title -->
-
-                <!-- get now -->
-                <div class="get_now bg_blu">
-                    <p><i class="far fa-paper-plane"></i>  {{ getNow}}</p>
-                </div>
-                <!-- get now -->
+            <div class="social">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-youtube"></i>
             </div>
-            <!-- //banner -->
+          </div>
+        </div>
+        <!-- //call us -->
 
-        </header>
-        <!-- //HEADER -->
-
-
-        <!-- MAIN -->
-        <main id="main">
-            <!-- award -->
-            <section class="award">
-                <p>HEADACHE FREE</p>
-                <h2>
-                    Award Winning <br>
-                    Moving Company
-                </h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis deleniti ea placeat odit facere doloribus nemo, <br> aut, vel doloremque excepturi quis saepe beatae in consequuntur fugit neque? <br> Ipsa, eaque voluptate.</p>
-                <button class="btn">READ OUR TESTIMONIALS</button>
-            </section>
-            <!-- //award -->
-
-            <!-- services -->
-            <section class="services">
-                <p>WE ARE A PROFESSIONAL</p>
-                <h2>Full - Service Solution</h2>
-                <!-- contenitore card -->
-                <div class="box_cards d_flex">
-                    <div class="card">
-                        <img src="./assets/img/avada-movers-serviceonephoto-final-400x255.jpg" alt="">
-                        <div class="card_description">
-                            <h3>Two Man Teams</h3>
-                            <p>Lorem ipsum amet consectetur adipisicing elit. Labore similique  magnam suscipit doloribus, ipsam voluptas fuga laudantium</p>
-                            <button class="btn">READ MORE</button>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <img src="./assets/img/avada-movers-servicetwophoto-final-400x255.jpg" alt="">
-                        <div class="card_description">
-                            <h3>We Do All The Lifting</h3>
-                            <p>Lorem ipsum amet consectetur adipisicing elit. Labore similique  magnam suscipit doloribus, ipsam voluptas fuga laudantium</p>
-                            <button class="btn">READ MORE</button>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <img src="./assets/img/avada-movers-servicethreephoto-final-400x255.jpg" alt="">
-                        <div class="card_description">
-                            <h3>Coast To Coast</h3>
-                            <p>Lorem ipsum amet consectetur adipisicing elit. Labore similique  magnam suscipit doloribus, ipsam voluptas fuga laudantium</p>
-                            <button class="btn">READ MORE</button>
-                        </div>
-                    </div>
-                </div>
-                <!-- //contenitore card -->
-
-
-            </section>
-
-            <!-- call to action -->
-            <section class="call_to_action">
-                <div class="container">
-                    <div class="green_card ">
-                        <h4>WE REMOVE THE HEADACHE FROM MOVING</h4>
-                        <h3>Move With Ease</h3>
-                        <hr size=”1″ color=white noshade>
-                        <p>With our super simple service we can take you from getting a quote, right through to being in your new home with all of your belongings securely packed and safety delivered, even in the rooms of your choice.</p>
-                        <button class="btn">GET A FREE QUOTE NOW</button>
-                    </div>
-                </div>
-            </section>
-            <!-- call to action -->
-
-            <!-- testimonials -->
-            <section class="testimonials">
-                <h4>HAPPY COSTUMERS</h4>
-                <h3>Testimonials</h3>
-                <div class="box_testimonials d_flex container">
-                    <div class="card_testimonial">
-                        <img src="assets/img/avada-movers-johndoe-final-200x200.jpg" alt="">
-                        <h5>John Doe</h5>
-                        <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus rem animi esse consectetur suscipit reiciendis aperiam atque minima rerum, alias placeat hic numquam sapiente possimus"</p>
-                    </div>
-
-                    <div class="card_testimonial">
-                        <img src="assets/img/avada-movers-janedoe-final-200x200.jpg" alt="">
-                        <h5>Jane Doe</h5>
-                        <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus rem animi esse consectetur suscipit reiciendis aperiam atque minima rerum, alias placeat hic numquam sapiente possimus"</p>
-                    </div>
-
-                    <div class="card_testimonial">
-                        <img src="assets/img/avada-movers-johnsmith-final-200x200.jpg" alt="">
-                        <h5>John Smith</h5>
-                        <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus rem animi esse consectetur suscipit reiciendis aperiam atque minima rerum, alias placeat hic numquam sapiente possimus"</p>
-                    </div>
-                </div>
-
-                <button class="btn">
-                    READ MORE TESTIMONIALS
-                </button>
-                
-                  
-                
-
-            </section>
-            <!-- //testimonials -->
-
-            <!-- request -->
-            <section class="request">
-                <h3>Request A Free Quote</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia similique magnam magni reiciendis cumque voluptatibus, omnis natus fugit, cum dolor et suscipit doloribus mollitia consequatur veritatis deserunt.</p>
-                <button class="btn">
-                    CLICK HERE
-                </button>
-
-            </section>
-            <!-- //request -->
-        </main>
-        <!-- //MAIN -->
-
-
-        <!-- FOOTER -->
-        <footer id="footer">
-            <div class="footer_top">
-
+        <!-- banner -->
+        <div class="banner">
+          <!-- navbar -->
+          <div class="padding_xy_15">
+            <div class="navbar container d_flex">
+              <div class="logo">
+                <a href="">
+                  <img :src="header.logoNavbar" alt="" />
+                </a>
+              </div>
+              <div class="menu d_flex">
+                <ul class="d_flex" v-for="item in header.menuNavbar">
+                  <li>{{item}}</li>
+                </ul>
+                <button class="btn">FREE QUOTE</button>
+              </div>
             </div>
-            <div class="footer_bottom">
+          </div>
+          <!-- //navbar -->
 
+          <!-- slogan Title -->
+          <div class="slogan">
+            <p>{{header.descriptionOne}}</p>
+            <h1>{{header.slogan}}</h1>
+            <p>{{header.descriptionTwo}}</p>
+          </div>
+          <!-- //slogan Title -->
+
+          <!-- get now -->
+          <div class="get_now bg_blu">
+            <p><i class="far fa-paper-plane"></i> {{ header.getNow}}</p>
+          </div>
+          <!-- get now -->
+        </div>
+        <!-- //banner -->
+      </header>
+      <!-- //HEADER -->
+
+      <!-- MAIN -->
+      <main id="main">
+        <!-- award -->
+        <section class="award">
+          <p>HEADACHE FREE</p>
+          <h2>
+            Award Winning <br />
+            Moving Company
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            deleniti ea placeat odit facere doloribus nemo, <br />
+            aut, vel doloremque excepturi quis saepe beatae in consequuntur
+            fugit neque? <br />
+            Ipsa, eaque voluptate.
+          </p>
+          <button class="btn">READ OUR TESTIMONIALS</button>
+        </section>
+        <!-- //award -->
+
+        <!-- services -->
+        <section class="services">
+          <p>WE ARE A PROFESSIONAL</p>
+          <h2>Full - Service Solution</h2>
+          <!-- contenitore card -->
+          <div class="box_cards d_flex">
+            <div class="card">
+              <img
+                src="./assets/img/avada-movers-serviceonephoto-final-400x255.jpg"
+                alt=""
+              />
+              <div class="card_description">
+                <h3>Two Man Teams</h3>
+                <p>
+                  Lorem ipsum amet consectetur adipisicing elit. Labore
+                  similique magnam suscipit doloribus, ipsam voluptas fuga
+                  laudantium
+                </p>
+                <button class="btn">READ MORE</button>
+              </div>
             </div>
-        </footer>
-        <!-- //FOOTER -->
 
+            <div class="card">
+              <img
+                src="./assets/img/avada-movers-servicetwophoto-final-400x255.jpg"
+                alt=""
+              />
+              <div class="card_description">
+                <h3>We Do All The Lifting</h3>
+                <p>
+                  Lorem ipsum amet consectetur adipisicing elit. Labore
+                  similique magnam suscipit doloribus, ipsam voluptas fuga
+                  laudantium
+                </p>
+                <button class="btn">READ MORE</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="./assets/img/avada-movers-servicethreephoto-final-400x255.jpg"
+                alt=""
+              />
+              <div class="card_description">
+                <h3>Coast To Coast</h3>
+                <p>
+                  Lorem ipsum amet consectetur adipisicing elit. Labore
+                  similique magnam suscipit doloribus, ipsam voluptas fuga
+                  laudantium
+                </p>
+                <button class="btn">READ MORE</button>
+              </div>
+            </div>
+          </div>
+          <!-- //contenitore card -->
+        </section>
+
+        <!-- call to action -->
+        <section class="call_to_action">
+          <div class="container">
+            <div class="green_card">
+              <h4>WE REMOVE THE HEADACHE FROM MOVING</h4>
+              <h3>Move With Ease</h3>
+              <hr size="”1″" color="white" noshade />
+              <p>
+                With our super simple service we can take you from getting a
+                quote, right through to being in your new home with all of your
+                belongings securely packed and safety delivered, even in the
+                rooms of your choice.
+              </p>
+              <button class="btn">GET A FREE QUOTE NOW</button>
+            </div>
+          </div>
+        </section>
+        <!-- call to action -->
+
+        <!-- testimonials -->
+        <section class="testimonials">
+          <h4>HAPPY COSTUMERS</h4>
+          <h3>Testimonials</h3>
+          <div class="box_testimonials d_flex container">
+            <div class="card_testimonial">
+              <img
+                src="assets/img/avada-movers-johndoe-final-200x200.jpg"
+                alt=""
+              />
+              <h5>John Doe</h5>
+              <p>
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Doloribus rem animi esse consectetur suscipit reiciendis aperiam
+                atque minima rerum, alias placeat hic numquam sapiente possimus"
+              </p>
+            </div>
+
+            <div class="card_testimonial">
+              <img
+                src="assets/img/avada-movers-janedoe-final-200x200.jpg"
+                alt=""
+              />
+              <h5>Jane Doe</h5>
+              <p>
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Doloribus rem animi esse consectetur suscipit reiciendis aperiam
+                atque minima rerum, alias placeat hic numquam sapiente possimus"
+              </p>
+            </div>
+
+            <div class="card_testimonial">
+              <img
+                src="assets/img/avada-movers-johnsmith-final-200x200.jpg"
+                alt=""
+              />
+              <h5>John Smith</h5>
+              <p>
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Doloribus rem animi esse consectetur suscipit reiciendis aperiam
+                atque minima rerum, alias placeat hic numquam sapiente possimus"
+              </p>
+            </div>
+          </div>
+
+          <button class="btn">READ MORE TESTIMONIALS</button>
+        </section>
+        <!-- //testimonials -->
+
+        <!-- request -->
+        <section class="request">
+          <h3>Request A Free Quote</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+            similique magnam magni reiciendis cumque voluptatibus, omnis natus
+            fugit, cum dolor et suscipit doloribus mollitia consequatur
+            veritatis deserunt.
+          </p>
+          <button class="btn">CLICK HERE</button>
+        </section>
+        <!-- //request -->
+      </main>
+      <!-- //MAIN -->
+
+      <!-- FOOTER -->
+      <footer id="footer">
+        <div class="green_line"></div>
+        <div class="footer_top">
+          <div class="container d_flex">
+            <div class="about">
+              <h3>{{footer.about.h3}}</h3>
+              <p>{{footer.about.p}}</p>
+              <img :src="footer.about.logo" alt="" />
+            </div>
+
+            <div class="avada_movers">
+              <h3>{{footer.avadaMovers.h3}}</h3>
+              <ul v-for="item in footer.avadaMovers.list">
+                <li>
+                  <a href=""> <i class="fas fa-chevron-right"></i> {{item}} </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="recent_posts">
+              <h3>{{footer.recentPosts.h3}}</h3>
+              <ul v-for="item in footer.recentPosts.list">
+                <li>
+                  <a href=""> <i class="fas fa-chevron-right"></i> {{item}} </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer_bottom bg_green">
+          <p>
+            <i class="far fa-copyright"></i
+            >{{footer.footerBottom.copyright}}{{footer.footerBottom.theme}}{{footer.footerBottom.rights}}{{footer.footerBottom.poweredBy}}
+          </p>
+          <span v-for="social in footer.footerBottom.socials">
+            <a href="">
+              <i :class="social"></i>
+            </a>
+          </span>
+        </div>
+      </footer>
+      <!-- //FOOTER -->
     </div>
     <!-- vue -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <!-- js -->
     <script src="./assets/js/main.js"></script>
-</body>
+  </body>
 </html>
