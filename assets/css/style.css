@@ -194,6 +194,7 @@
     margin-bottom: 20px;
 }
 
+
 /* call to action */
 .call_to_action{
     background-image: url("../img/avada-movers-movewithease-background-new.jpg");
@@ -238,6 +239,7 @@
     line-height: 26px;
     padding: 20px;
 }
+
 
 /* testimonials */
 .testimonials{
@@ -287,5 +289,30 @@
 }
 .testimonials button{
     margin-top: 70px;
+}
+
+
+/* request */
+.request{
+    background-image: url("../img/avada-movers-request-quote-background.jpg");
+    background-size: 100%;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding: 100px;
+}
+.request h3{
+    color: #69bf14;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+.request p{
+    font-size: 14px;
+    font-weight: 400;
+    width: 50%;
+    margin: auto;
+    line-height: 30px;
+    padding-bottom: 30px;
 }
 
