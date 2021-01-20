@@ -239,3 +239,53 @@
     padding: 20px;
 }
 
+/* testimonials */
+.testimonials{
+    background-image: url("../img/avada-movers-testimonial-background.jpg");
+    background-size: 100%;
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    padding: 100px;
+}
+.testimonials h4{
+    color: #93989b;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.testimonials h3{
+    color: #69bf14;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 40px;
+}
+.testimonials > .container{
+    margin: auto;
+}
+.card_testimonial{
+    width: 30%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+.card_testimonial p{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+}
+.card_testimonial img{
+    border-radius: 100%;
+    height: 120px;
+}
+.card_testimonial h5{
+    color: #1975c0;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 15px;
+}
+.testimonials button{
+    margin-top: 70px;
+}
+
