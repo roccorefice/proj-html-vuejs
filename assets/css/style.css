@@ -134,7 +134,7 @@
 }
 .award h2{
     color: #69bf14;
-    font-size: 42px;
+    font-size: 40px;
     font-weight: 800;
     line-height: 50px;
 }
@@ -142,5 +142,54 @@
     font-size: 14px;
     font-weight: 400;
     padding: 20px 0;
-
 }
+
+
+/* services */
+.services{
+    padding: 100px;
+    text-align: center;
+}
+.services > p{
+    color: #93989b;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.services h2{
+    color: #69bf14;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.services .card img{
+    height: 170px;
+}
+.services .box_cards{
+    justify-content: center;
+}
+.services .card{
+    width: 320px;
+    background-color: #F8F9FD;
+    text-align: center;
+    margin: 20px;
+    padding: 22px;
+}
+.services .card_description{
+    background-color: white;
+    padding: 10px;
+    margin-top: 22px;
+}
+.services .card_description h3{
+    color: #1975c0;
+    padding: 20px;
+}
+.services .card_description p{
+    line-height: 26px;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.services .card_description button{
+    margin-bottom: 20px;
+}
+
