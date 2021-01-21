@@ -29,13 +29,12 @@ body {
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
-
 }
 button:focus {
   outline: none;
 }
-button:hover{
-    background-color: #4d596a;
+button:hover {
+  background-color: #4094e2;
 }
 .bg_green {
   background-color: #69bf14;
@@ -47,8 +46,6 @@ button:hover{
   padding: 15px 0;
 }
 /***************** //utility classes *****************/
-
-
 
 /********************** HEADER **********************/
 /* call us */
@@ -63,8 +60,8 @@ button:hover{
   padding-right: 10px;
   cursor: pointer;
 }
-.call_us i:hover{
-    color: #1975c0;
+.call_us i:hover {
+  color: #1975c0;
 }
 
 /* banner */
@@ -90,6 +87,12 @@ button:hover{
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
+}
+.navbar li:hover {
+  color: #5aa511;
+}
+.navbar li:visited {
+  color: red;
 }
 .navbar .menu {
   justify-content: space-between;
@@ -126,13 +129,11 @@ button:hover{
   bottom: 0;
   cursor: pointer;
 }
-.get_now:hover{
-    background-color: #69bf14;
+.get_now:hover {
+  background-color: #4094e2;
 }
 
 /********************* //HEADER **********************/
-
-
 
 /********************** MAIN **********************/
 
@@ -192,8 +193,8 @@ button:hover{
   margin: 20px;
   padding: 15px;
 }
-.services .card:hover{
-    box-shadow: 0 0 50px #afaeae;
+.services .card:hover {
+  box-shadow: 0 0 50px #afaeae;
 }
 .services .card_description {
   background-color: white;
@@ -333,8 +334,6 @@ button:hover{
 }
 /********************** //MAIN **********************/
 
-
-
 /********************** FOOTER **********************/
 .green_line {
   background-color: #69bf14;
@@ -379,6 +378,9 @@ button:hover{
   color: black;
   font-size: 14px;
 }
+.footer_top a:hover {
+  color: #69bf14;
+}
 .footer_top i {
   font-size: 10px;
 }
@@ -403,13 +405,11 @@ button:hover{
   text-decoration: none;
   color: white;
 }
-.footer_bottom span i:hover{
-    color: #1975c0;
+.footer_bottom span i:hover {
+  color: #1975c0;
 }
 
 /********************* //FOOTER *********************/
-
-
 
 /* scroll on top */
 .scroll_top {
@@ -429,6 +429,6 @@ button:hover{
 .scroll_top i {
   color: white;
 }
-.scroll_top:hover{
-    background-color: #1975c0;
+.scroll_top:hover {
+  background-color: #4094e2;
 }
