@@ -2,6 +2,7 @@
 let app = new Vue({
   el: "#app",
   data: {
+    //  header
     header: {
       logoNavbar: "./assets/img/avada-movers-logo.png",
       menuNavbar: ["Home", "Rates", "Testimonials", "FAQ", "Contact"],
@@ -11,7 +12,7 @@ let app = new Vue({
         "professional service with quality and customer satisfaction",
       slogan: "we make it simple",
     },
-
+    // footer_top
     footer: {
       about: {
         h3: "ABOUT",
@@ -36,6 +37,7 @@ let app = new Vue({
         ],
       },
 
+      //  footer_bottom
       footerBottom: {
         copyright: " Copyright 2012 - 2020 |",
         theme: " Avada Theme by ThemeFusion |",
@@ -52,6 +54,9 @@ let app = new Vue({
   },
 
   methods: {
+    /**
+     * Funzione che scrolla on top al click di un pulsante
+     */
     scrollOnTop: function () {
       window.scrollTo(0, 0);
     },

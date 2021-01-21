@@ -8,6 +8,9 @@
 body {
   position: relative;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 /******************* utility classes *******************/
 .d_flex {
