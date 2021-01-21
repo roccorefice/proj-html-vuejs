@@ -50,4 +50,10 @@ let app = new Vue({
       },
     },
   },
+
+  methods:{
+      scrollOnTop: function(){
+          window.scrollTo(0,0);
+      }
+  }
 });
